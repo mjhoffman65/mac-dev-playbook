@@ -46,11 +46,6 @@ You can override any of the defaults configured in `default.config.yml` by creat
       - { id: 557168941, name: "Tweetbot" }
       - { id: 497799835, name: "Xcode" }
 
-    composer_packages:
-      - name: hirak/prestissimo
-      - name: drush/drush
-        version: '^8.1'
-
     gem_packages:
       - name: bundler
         state: latest
