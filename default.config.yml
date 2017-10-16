@@ -2,8 +2,6 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
 configure_osx: yes
 
 dotfiles_repo: https://github.com/mjhoffman65/dotfiles.git
@@ -16,6 +14,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - ack
   - bash-completion
   - git
   - ssh-copy-id
