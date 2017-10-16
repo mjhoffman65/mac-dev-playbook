@@ -8,9 +8,10 @@ configure_osx: yes
 
 dotfiles_repo: https://github.com/mjhoffman65/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/git/dotfiles
+dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
   - .bash_profile
+  - .gitconfig
   - .vimrc
 
 homebrew_installed_packages:
